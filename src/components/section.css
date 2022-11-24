@@ -1,0 +1,56 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Make everything is centered
+   ============================================= */
+.all-center {
+  margin-left: auto;
+  margin-right: auto;
+  @mixin screen-xs-up {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    img:not(.avatar) {
+      width: 100%;
+    }
+  }
+  @mixin screen-lg-up {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    img:not(.avatar) {
+      object-fit: cover;
+      background-size: cover;
+    }
+  }
+}
+.all-center:not(.grid) {
+  display: flex;
+  flex-direction: column;
+}
+/* One screen divided in two
+   ============================================= */
+.split-screen {
+  display: flex;
+  justify-content: space-between;
+  @mixin screen-xs-up {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @mixin screen-md-up {
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+  }
+}
+.split-screen > img {
+  border-radius: var(--rbrh-radius-md);
+  @mixin screen-xs-up {
+    width: 100%;
+    padding: 0;
+  }
+  @mixin screen-md-up {
+    width: 50%;
+  }
+}
+

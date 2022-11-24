@@ -1,0 +1,57 @@
+[data-theme="light"] .cta-section {
+  background-image: linear-gradient(
+    200deg,
+    hsl(226deg 91% 95%) 0%,
+    hsl(226deg 92% 95%) 18%,
+    hsl(226deg 93% 95%) 30%,
+    hsl(226deg 93% 94%) 40%,
+    hsl(226deg 94% 94%) 48%,
+    hsl(226deg 94% 94%) 54%,
+    hsl(226deg 95% 93%) 60%,
+    hsl(226deg 95% 93%) 65%,
+    hsl(226deg 95% 93%) 70%,
+    hsl(226deg 96% 92%) 74%,
+    hsl(226deg 96% 92%) 78%,
+    hsl(226deg 96% 92%) 81%,
+    hsl(226deg 96% 91%) 85%,
+    hsl(226deg 96% 91%) 87%,
+    hsl(226deg 96% 91%) 90%,
+    hsl(226deg 96% 90%) 92%,
+    hsl(226deg 97% 90%) 94%,
+    hsl(226deg 97% 89%) 96%,
+    hsl(226deg 97% 89%) 97%,
+    hsl(226deg 97% 89%) 98%,
+    hsl(226deg 97% 88%) 99%,
+    hsl(226deg 97% 88%) 100%
+  );
+}
+[data-theme="dark"] .cta-section {
+  background: var(--rbrh-blue-900);
+}
+.gradient-text {
+  background-image: linear-gradient(
+    45deg,
+    hsl(232deg 96% 50%) 0%,
+    hsl(232deg 97% 48%) 10%,
+    hsl(232deg 97% 46%) 20%,
+    hsl(232deg 98% 44%) 30%,
+    hsl(232deg 98% 42%) 40%,
+    hsl(232deg 99% 40%) 50%,
+    hsl(232deg 100% 37%) 60%,
+    hsl(231deg 100% 34%) 70%,
+    hsl(231deg 100% 31%) 80%,
+    hsl(231deg 99% 28%) 90%,
+    hsl(232deg 97% 25%) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+[data-theme="dark"] .gradient-text {
+  background-image: linear-gradient(
+    45deg,
+    hsl(67deg 91% 44%) 0%,
+    hsl(149deg 91% 48%) 45%,
+    hsl(232deg 92% 53%) 97%
+  );
+}

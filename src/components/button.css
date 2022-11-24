@@ -1,0 +1,63 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base button
+   ============================================= */
+button,
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--rbrh-font-weight-semibold);
+  background-color: var(--rbrh-blue-600);
+  border-radius: var(--rbrh-radius-circle);
+  color: var(--rbrh-white);
+  padding: var(--rbrh-spacing-4) var(--rbrh-spacing-6);
+  &:hover {
+    transform: translateY(-3px);
+    transition: transform 0.2s ease;
+  }
+  &:target,
+  &:focus {
+    box-shadow: var(--rbrh-shadow-focus);
+    outline: 0;
+  }
+  &:active {
+    transform: translate(var(--rbrh-spacing-1), var(--rbrh-spacing-1));
+    box-shadow: 0 1px 2px var(--rbrh-gray-100) inset;
+  }
+}
+
+/* Absolute button
+   ============================================= */
+.btn-absolute {
+  background-color: var(--rbrh-background-50);
+  @mixin screen-xs-up {
+    display: none;
+  }
+  @mixin screen-sm-up {
+    display: block;
+    position: fixed;
+    bottom: var(--rbrh-spacing-5);
+    right: var(--rbrh-spacing-5);
+    box-shadow: var(--rbrh-shadow-sm);
+    width: fit-content;
+    z-index: 1000;
+    min-width: fit-content;
+  }
+}
+/* Variants
+   ============================================= */
+
+.btn-sm {
+  line-height: var(--rbrh-line-h-xs);
+  padding: var(--rbrh-spacing-3) var(--rbrh-spacing-5);
+}
+
+.btn-lg {
+  box-shadow: var(--rbrh-shadow-md2);
+  font-size: var(--rbrh-font-size-md);
+  letter-spacing: normal;
+  line-height: var(--rbrh-line-h-md);
+  padding: var(--rbrh-spacing-5) var(--rbrh-spacing-7);
+}
