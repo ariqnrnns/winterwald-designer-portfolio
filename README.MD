@@ -9,7 +9,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/ariqnrnns/winterwald-designer-portfolio/badge.svg)](https://snyk.io/test/github/ariqnrnns/winterwald-designer-portfolio)
 [![Build CI](https://github.com/ariqnrnns/winterwald-designer-portfolio/actions/workflows/build.yml/badge.svg)](https://github.com/ariqnrnns/winterwald-designer-portfolio/actions/workflows/build.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ariqnrnns/winterwald-designer-portfolio)
-![GitHub](https://img.shields.io/github/license/ariqnrnns/winterwald-designer-portfolio)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Winterwald.ravenbright.design](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://winterwald.ravenbright.design)
 
 </div>

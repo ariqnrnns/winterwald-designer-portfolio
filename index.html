@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="description"
+			content="Build modern & unique product portfolio websites that convert. Supercharge your online presence & get more customers with responsive & high performance dark mode HTML template. Easily customize the template with utility classes & CSS custom properties.">
+		<meta name="keywords"
+			content="Free HTML template, product designer HTML template, free responsive HTML template, designer portfolio, product designer portfolio, lightweight & minimal CSS library, dark mode HTML template, modern HTML template, HTML kit, UI template, HTML template, free HTML, free HTML responsive">
+		<meta name="author" content="Ravenbright CSS">
+		<meta name="language" content="English">
+		<title>Winterwald - FREE HTML product designer portfolio template made with Ravenbright CSS library</title>
+		<meta property="og:site_name" content="Winterwald - made with Ravenbright CSS">
+		<meta property="og:site" content="Winterwald - made with Ravenbright CSS">
+		<meta property="og:title" content="Winterwald - FREE product designer HTML website made with Ravenbright CSS library">
+		<meta property="og:description"
+			content="Build modern & unique product designer portfolio websites that convert. Supercharge your online presence & get more customers with responsive & high performance dark mode HTML template. Easily customize the template with utility classes & CSS custom properties.">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="300">
+		<meta property="og:image:height" content="300">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:url" content="https://">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Winterwald - FREE product designer HTML website made with Ravenbright CSS library">
+		<meta name="twitter:description"
+			content="Build modern & unique product designer portfolio websites that convert. Supercharge your online presence & get more customers with responsive & high performance dark mode HTML template. Easily customize the template with utility classes & CSS custom properties.">
+
+		<!--Main CSS-->
+		<link rel="stylesheet" href="ravenbright.min.css">
+
+		<!--Favicon-->
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-32x32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon-180x180.png">
+		<!--Scripts-->
+		<script src="/js/lazysizes.min.js"></script>
+		<script src="/js/toggledarktheme.js" defer></script>
+	</head>
+	<body class="bg-blue-50 dark-bg-gray-900">
+		<!--Noscript alert-->
+		<noscript>
+			<div class="alert bg-blue-200 dark-bg-blue-800 p-y-3 gap-2 alert-noscript all-center flex-row w-100">
+				Hi there 👋 please enable JavaScript to experience 🎮 dark mode.
+				<br> <strong>Check settings in your browser</strong>
+			</div>
+		</noscript>
+		<!--Nav for large screens-->
+		<header class="sticky flex items-center bg-blue-50 dark-bg-gray-900 h-20  lg-p-y-10">
+			<nav class="container container-xl flex justify-between items-center gap-8" aria-label="primary nav">
+				<!--Links-->
+				<ul class="flex items-center gap-8">
+					<!--Logo-->
+					<li class="m-r-8">
+						<a href="#0" class="link-navbar flex items-center">
+							<img alt="Winterwald Logo" src="/logo-40x40.png" class="w-10 h-10" width="100" height="100">
+							<div class="m-l-4 flex items-start flex-column xs-d-none sm-flex">
+								<h1 class="h5 font-bold line-h-lg">Winterwald</h1>
+								<p class="small align-left">
+									By Ravenbright CSS
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="xs-d-none sm-flex">
+						<!--Toggle for dark mode-->
+						<fieldset>
+							<legend class="visually-hidden">Toggle for dark mode</legend>
+							<input class="toggle-input visually-hidden" id="switch" type="checkbox" role="switch">
+							<label for="switch" class="toggle-switch" aria-label="toggle switch">
+								<span class="visually-hidden">Label for the toggle</span>
+								<span class="toggle-round"></span>
+							</label>
+						</fieldset>
+					</li>
+				</ul>
+				<!--Hamburger button-->
+				<button class="btn-md p-0 bg-transparent gray-800 dark-gray-200 xs-d-flex md-d-none" aria-label="Mobile menu" aria-expanded="false">
+					<svg aria-label="hamburger menu" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-TextAlignJustified m-r-3">
+						<title>Mobile hamburger menu icon</title>
+						<path d="M3 6h18M3 12h18M3 18h18"></path>
+					</svg>
+					Menu
+				</button>
+				<ul class="xs-d-none md-flex  items-center gap-5 bg-white shadow-md dark-bg-gray-600 dark-white md-p-r-3 md-p-l-6 md-p-y-3 radius-circle flex-wrap">
+					<!--Works-->
+					<li class="m-r-6">
+						<a class="link-navbar " href="#0">Works</a>
+					</li>
+					<!--About-->
+					<li class="m-r-4">
+						<a class="link-navbar " href="#0">About</a>
+					</li>
+					<!--Button-->
+					<li>
+						<a href="mailto:mail@ravenbright.design" class="btn bg-transparent blue-800 dark-blue-200 border-blue-300 dark-border-blue-400 btn-sm items-center" aria-label="Send email" role="button">
+							Send email
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ChatDots m-l-3">
+								<path d="M14 19c3.771 0 5.657 0 6.828-1.172C22 16.657 22 14.771 22 11c0-3.771 0-5.657-1.172-6.828C19.657 3 17.771 3 14 3h-4C6.229 3 4.343 3 3.172 4.172 2 5.343 2 7.229 2 11c0 3.771 0 5.657 1.172 6.828.653.654 1.528.943 2.828 1.07"></path>
+								<path d="M12 11v.01"></path>
+								<path d="M8 11v.01"></path>
+								<path d="M16 11v.01"></path>
+								<path d="M14 19c-1.236 0-2.598.5-3.841 1.145-1.998 1.037-2.997 1.556-3.489 1.225-.492-.33-.399-1.355-.212-3.404L6.5 17.5"></path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!--Main contents-->
+		<main>
+			<!--hero-->
+			<section class="p-y-16 dark-bg-black">
+				<div class="container container-lg">
+					<div class="section-title">
+						<span class="badge badge-sm bg-lime-300 border-lime-400 font-semibold dark-bg-gray-700 green-800 dark-border-none m-b-6 p-x-4 flex-wrap dark-white items-center">
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" class="ai ai-CircleFill green-600 m-r-3">
+								<circle cx="12" cy="12" r="11"></circle>
+							</svg>
+							Open for work
+						</span>
+						<h2 class="h1 m-b-6">👋 Hello I'm Hildegard Cherise!</h2>
+						<div class="xs-w-100 lg-w-65 m-b-8">
+							<p class="h6 font-medium line-h-lg">I'm a product designer based in Berlin. I am
+								experienced in designing B2B desktop applications mixed with mindful business needs &amp; user
+								experiences.</p>
+						</div>
+						<!--buttons-->
+						<a href="mailto:mail@ravenbright.design" class="btn dark-bg-blue-500 btn-lg  radius-circle" role="button" aria-label="Send email">
+							Send email
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ChatDots m-l-3">
+								<path d="M14 19c3.771 0 5.657 0 6.828-1.172C22 16.657 22 14.771 22 11c0-3.771 0-5.657-1.172-6.828C19.657 3 17.771 3 14 3h-4C6.229 3 4.343 3 3.172 4.172 2 5.343 2 7.229 2 11c0 3.771 0 5.657 1.172 6.828.653.654 1.528.943 2.828 1.07"></path>
+								<path d="M12 11v.01"></path>
+								<path d="M8 11v.01"></path>
+								<path d="M16 11v.01"></path>
+								<path d="M14 19c-1.236 0-2.598.5-3.841 1.145-1.998 1.037-2.997 1.556-3.489 1.225-.492-.33-.399-1.355-.212-3.404L6.5 17.5"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</section>
+			<!--case studies & articles-->
+			<section class="p-y-24 bg-white dark-bg-gray-900">
+				<h2 class="visually-hidden">Case studies</h2>
+				<div class="container container-lg m-b-24">
+					<p class="subtitle font-default m-b-6">SELECTED CASE STUDIES</p>
+					<article class="clickable flex items-center justify-between p-y-7 p-x-9 radius-md bg-gray-50 border-gray-100 dark-border-none dark-bg-gray-800 w-100 xs-flex-wrap md-flex-no-wrap m-b-6">
+						<h3 class="visually-hidden">Companyabc</h3>
+						<a href="#" class="spread-link" role="button" target="_blank" aria-label="Companyabc" rel="noopener"></a>
+						<div class="flex flex-column md-w-50 xs-m-b-8 md-m-b-0 m-r-8">
+
+							<a class="h4 underline m-b-6" href="#0">Companyabc</a>
+							<p class="subtitle max-w-88">Mauris eu tempor urna. Curabitur aliquet mauris non mi sodales cursus.
+								Nullam et efficitur ipsum. Maecenas commodo ornare.</p>
+						</div>
+						<div class="flex flex-column md-w-50 m-r-8">
+							<h3 class="h6 m-b-3">UX Research • UX Design • UI Design</h3>
+							<p class="subtitle max-w-88">(2021 - 2022)</p>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ArrowUpRight xs-d-none md-flex black dark-white">
+							<path d="M18 6L6 18"></path>
+							<path d="M8 6h10v10"></path>
+						</svg>
+					</article>
+					<article class="clickable flex items-center justify-between p-y-7 p-x-9 radius-md bg-gray-50 border-gray-100 dark-border-none dark-bg-gray-800 w-100 xs-flex-wrap md-flex-no-wrap">
+						<h3 class="visually-hidden">Companyfgh</h3>
+						<a href="#" class="spread-link" role="button" target="_blank" aria-label="Companyfgh" rel="noopener"></a>
+						<div class="flex flex-column md-w-50 xs-m-b-8 md-m-b-0 m-r-8">
+
+							<a class="h4 underline m-b-6" href="#0">Companyfgh</a>
+							<p class="subtitle max-w-88">Uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<div class="flex flex-column md-w-50 m-r-8">
+							<h3 class="h6 m-b-3">Design System - Front End Development</h3>
+							<p class="subtitle max-w-88">(2020 - 2021)</p>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ArrowUpRight xs-d-none md-flex black dark-white">
+							<path d="M18 6L6 18"></path>
+							<path d="M8 6h10v10"></path>
+						</svg>
+					</article>
+				</div>
+				<!--articles-->
+				<div class="container container-lg">
+					<p class="subtitle font-default m-b-6">ARTICLES</p>
+					<div class="grid xs-grid-cols-1 md-grid-cols-2 lg-grid-cols-3 gap-8">
+						<article class="clickable flex flex-column items-start justify-between radius-md bg-white dark-bg-gray-800 shadow-sm w-100 p-7 xs-m-b-6 md-m-b-0">
+							<h3 class="visually-hidden">10 Principles of Psychology You Can Use to Improve Your Design</h3>
+							<a href="#0" class="spread-link" role="button" target="_blank" aria-label=">10 Principles of Psychology You Can Use to Improve Your Design" rel="noopener"></a>
+							<img data-sizes="auto" class="lazyload m-b-8 radius-sm" height="100" width="100"
+							src="https://images.unsplash.com/photo-1557425955-df376b5903c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4&q=80"
+							data-src="https://images.unsplash.com/photo-1557425955-df376b5903c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+								alt="Unsplash image by @jasongoodman_youxventures - https://unsplash.com/photos/X8H8vPcelPk">
+							<span
+								class="badge badge-sm bg-gray-200 gray-700 font-semibold dark-bg-gray-600 dark-white dark-border-none m-b-6 p-x-4 flex-wrap items-center">
+								UX research
+							</span>
+							<a class="h5 m-b-4" href="#0">10 Principles of Psychology You Can Use to Improve Your Design</a>
+							<div class="flex justify-between items-center w-100">
+								<p class="subtitle xs-m-b-3 md-m-b-0 font-medium">Sept 25th, 2022</p>
+								<p class="caption">5 minutes read</p>
+							</div>
+						</article>
+						<article class="clickable flex flex-column items-start justify-between radius-md bg-white dark-bg-gray-800 shadow-sm w-100 p-7 xs-m-b-6 md-m-b-0">
+							<h3 class="visually-hidden">5 best & affordable UX research platforms for small businesses</h3>
+							<a href="#0" class="spread-link" role="button" target="_blank" aria-label=">5 best & affordable UX research platforms for small businesses"></a>
+							<img data-sizes="auto" class="lazyload m-b-8 radius-sm" height="100" width="100"
+							src="https://images.unsplash.com/photo-1532522750741-628fde798c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNvZnR3YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=4&q=60"
+							data-src="https://images.unsplash.com/photo-1532522750741-628fde798c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNvZnR3YXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=320&q=60"
+							alt="Unsplash image by @disruptxn - https://unsplash.com/photos/vII7qKAk-9A">
+						<span
+							class="badge badge-sm bg-gray-200 font-semibold dark-bg-gray-600 gray-700 dark-border-none m-b-6 p-x-4 flex-wrap dark-white items-center">
+							UX research
+						</span>
+						<a href="#0" class="h5 m-b-4">5 best & affordable UX research platforms for small businesses</a>
+						<div class="flex justify-between items-center w-100">
+							<p class="subtitle xs-m-b-3 md-m-b-0 font-medium">Oct 2nd, 2022</p>
+							<p class="caption">5 minutes read</p>
+						</div>
+						</article>
+						<article class="clickable flex flex-column items-start justify-between radius-md bg-white dark-bg-gray-800 shadow-sm w-100 p-7 xs-m-b-6 md-m-b-0">
+							<h3 class="visually-hidden">3 Important Steps You Need to Know Before Running Generative User Research</h3>
+							<a href="#0" class="spread-link" role="button" target="_blank" aria-label=">3 Important Steps You Need to Know Before Running Generative User Research"></a>
+							<img  class="lazyload m-b-8 radius-sm" height="100" width="100"
+							data-src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
+							src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4&q=80"
+							alt="Unsplash image by @jasongoodman_youxventures - https://unsplash.com/photos/vbxyFxlgpjM">
+						<span
+							class="badge badge-sm bg-gray-200 font-semibold dark-bg-gray-600 gray-700 dark-border-none m-b-6 p-x-4 flex-wrap dark-white items-center">
+							UX research
+						</span>
+						<a href="#0" class="h5 m-b-4">3 Important Steps You Need to Know Before Running Generative User Research</a>
+						<div class="flex justify-between items-center w-100">
+							<p class="subtitle xs-m-b-3 md-m-b-0 font-medium">Oct 9th, 2022</p>
+							<p class="subtitle">3 minutes read</p>
+						</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!--CTA-->
+			<section class="xs-p-y-16 md-p-y-24 cta-section">
+				<div class="container container-lg">
+					<div class="section-title all-center m-b-4">
+						<span
+							class="badge badge-sm border-orange-300 bg-orange-200 font-semibold dark-white dark-bg-gray-700 dark-border-gray-500 dark-border-none p-x-3 p-y-2 m-b-4">
+							Build high-performing sites 🚀
+						</span>
+						<h2 class="lg-w-75 m-b-6">Create <span class="blue-700 dark-yellow-500 font-bold">modern</span> & satisfying
+							static sites that convert</h2>
+						<p class="m-b-6 w-75"> Free to use even for commercial usage with Apache License 2.0</p>
+						<a target="_blank"
+						rel="noopener noreferrer" href="https://ravenbrightdesign.gumroad.com" class="btn dark-bg-blue-500 btn-lg  radius-circle" role="button"
+							aria-label="Download this template">
+							Download this template
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download m-l-4" width="24"
+								height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+								stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+								<polyline points="7 11 12 16 17 11" />
+								<line x1="12" y1="4" x2="12" y2="16" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!--Made with Ravenbright CSS-->
+			<a target="_blank"
+			rel="noopener noreferrer" href="https://ravenbrightcss.com"
+				class="btn bg-white dark-bg-gray-800 gray-800 dark-gray-200 border-gray-200 dark-border-gray-700 p-x-5 p-y-2 btn-absolute font-size-xs"
+				aria-label="Made with Ravenbright CSS">
+				Made with Ravenbright CSS
+			</a>
+		</main>
+		<footer class="p-y-24 flex flex-column">
+			<!--Links-->
+			<div class="container container-xl">
+				<div class="footer-info border-none">
+					<ul class="footer-desc">
+						<li class="flex">
+							<a href="#0" class="link-navbar flex items-center">
+								<img alt="Winterwald Logo" src="/logo-40x40.png" class="w-10 h-10" width="100" height="100">
+								<div class="m-l-4 flex items-start flex-column">
+									<h3 class="h5 font-bold line-h-lg">Winterwald</h3>
+									<p class="small align-left">
+										By Ravenbright CSS
+									</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul class="footer-links">
+						<li class="xs-m-b-8 sm-m-b-0 m-r-10">
+							<a href="#0" class="subtitle link-footer">Works</a>
+						</li>
+						<li class="xs-m-b-8 sm-m-b-0 m-r-10">
+							<a href="#0" class="subtitle link-footer">Services</a>
+						</li>
+						<li class="xs-m-b-8 sm-m-b-0 m-r-10">
+							<a href="#0" class="subtitle link-footer">About</a>
+						</li>
+
+						<li class="xs-m-b-8 sm-m-b-0">
+							<a href="#0" class="subtitle link-footer">License</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--Social media & copyright-->
+			<div class="container container-xl m-b-6">
+				<div class="footer-info">
+					<div class="footer-links">
+						<a href="https://github.com/ravenbrightdesign/ravenbrightcss" 	target="_blank"
+						rel="noopener noreferrer"
+							 aria-label="github link"
+							 class="m-r-10">
+							<svg xmlns="http://www.w3.org/2000/svg"
+									 width="22"
+									 height="22"
+									 viewBox="0 0 24 24"
+									 fill="currentColor"
+									 stroke-width="2"
+									 class="ai ai-GithubFill">
+								<path fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z">
+								</path>
+							</svg>
+						</a>
+						<a href="https://www.figma.com/@ariqnarasaputra" target="_blank"
+						rel="noopener noreferrer"
+							 aria-label="figma link"
+							 class="m-r-10">
+							<svg role="img"
+									 aria-label="figma"
+									 width="24"
+									 height="24"
+									 stroke-width="2"
+									 viewBox="0 0 24 24"
+									 fill="none"
+									 xmlns="http://www.w3.org/2000/svg">
+								<path d="M6 6C6 5.20435 6.31607 4.44129 6.87868 3.87868C7.44129 3.31607 8.20435 3 9 3H12V9H9C8.20435 9 7.44129 8.68393 6.87868 8.12132C6.31607 7.55871 6 6.79565 6 6Z"
+											stroke="currentColor"
+											stroke-linecap="round"
+											stroke-linejoin="round"></path>
+								<path d="M12 3H15C15.394 3 15.7841 3.0776 16.1481 3.22836C16.512 3.37913 16.8427 3.6001 17.1213 3.87868C17.3999 4.15726 17.6209 4.48797 17.7716 4.85195C17.9224 5.21593 18 5.60603 18 6C18 6.39397 17.9224 6.78407 17.7716 7.14805C17.6209 7.51203 17.3999 7.84274 17.1213 8.12132C16.8427 8.3999 16.512 8.62087 16.1481 8.77164C15.7841 8.9224 15.394 9 15 9H12V3Z"
+											stroke="currentColor"
+											stroke-linecap="round"
+											stroke-linejoin="round"></path>
+								<path d="M12 12C12 11.606 12.0776 11.2159 12.2284 10.8519C12.3791 10.488 12.6001 10.1573 12.8787 9.87868C13.1573 9.6001 13.488 9.37913 13.8519 9.22836C14.2159 9.0776 14.606 9 15 9C15.394 9 15.7841 9.0776 16.1481 9.22836C16.512 9.37913 16.8427 9.6001 17.1213 9.87868C17.3999 10.1573 17.6209 10.488 17.7716 10.8519C17.9224 11.2159 18 11.606 18 12C18 12.394 17.9224 12.7841 17.7716 13.1481C17.6209 13.512 17.3999 13.8427 17.1213 14.1213C16.8427 14.3999 16.512 14.6209 16.1481 14.7716C15.7841 14.9224 15.394 15 15 15C14.606 15 14.2159 14.9224 13.8519 14.7716C13.488 14.6209 13.1573 14.3999 12.8787 14.1213C12.6001 13.8427 12.3791 13.512 12.2284 13.1481C12.0776 12.7841 12 12.394 12 12V12Z"
+											stroke="currentColor"
+											stroke-linecap="round"
+											stroke-linejoin="round"></path>
+								<path d="M6 18C6 17.2044 6.31607 16.4413 6.87868 15.8787C7.44129 15.3161 8.20435 15 9 15H12V18C12 18.7956 11.6839 19.5587 11.1213 20.1213C10.5587 20.6839 9.79565 21 9 21C8.20435 21 7.44129 20.6839 6.87868 20.1213C6.31607 19.5587 6 18.7956 6 18Z"
+											stroke="currentColor"
+											stroke-linecap="round"
+											stroke-linejoin="round"></path>
+								<path d="M6 12C6 11.2044 6.31607 10.4413 6.87868 9.87868C7.44129 9.31607 8.20435 9 9 9H12V15H9C8.20435 15 7.44129 14.6839 6.87868 14.1213C6.31607 13.5587 6 12.7956 6 12Z"
+											stroke="currentColor"
+											stroke-linecap="round"
+											stroke-linejoin="round"></path>
+							</svg>
+						</a>
+						<a href="https://codepen.io/ariqnarasaputra" target="_blank"
+						rel="noopener noreferrer"
+							 aria-label="codepen link"
+							 class="m-r-10">
+							<svg xmlns="http://www.w3.org/2000/svg"
+									 width="22"
+									 height="22"
+									 viewBox="0 0 24 24"
+									 fill="currentColor"
+									 stroke-width="2"
+									 class="ai ai-CodepenFill">
+								<path fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 0 1 0 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<small>Designed, developed &amp; maintained by <a target="_blank"
+						rel="noopener noreferrer" href="https://github.com/ariqnrnns"
+						class="small underline">Ariq N</a></small>
+				</div>
+			</div>
+			<!--Descriptions-->
+			<div class="container container-xl">
+				<div class="flex flex-column">
+					<p class="caption footer-desc m-b-6">This website is built with
+						<a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://ravenbrightcss.com"
+							 class="caption underline">Ravenbright CSS library</a>.
+						Icons are courtesy of <a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://akaricons.com"
+							 class="caption underline">Akar Icons</a> &amp;
+						<a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://tabler-icons.io/"
+							 class="caption underline">Tabler Icons</a>.
+						Photos are courtesy of <a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://unsplash.com"
+							 class="caption underline">Unsplash</a>.
+						Typeface: <a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://fonts.google.com/specimen/Inter+Tight"
+							 class="caption underline">Inter
+							Tight by Rasmus Andersson</a>.
+						Code released under <a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://github.com/ariqnrnns/ravenbrightcss/blob/main/LICENSE"
+							 class="caption underline">Apache License
+							2.0</a>.
+					</p>
+					<small class="footer-desc">Website quality standards:
+						<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwinterwald.ravenbright.design&__cf_chl_f_tk=yUC9loyYmRqGDckMlVi26R4RO6dhXkOLfNCrX8odaVM-1669294040-0-gaNycGzNBn0"
+							 target="_blank"
+							 rel="noopener noreferrer"
+							 class="inline-flex underline"> <small>Valid HTML5</small></a>,
+						<a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwinterwald.ravenbright.design&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
+							 class="inline-flex underline"><small>Valid CSS</small></a>,
+						<a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://www.projectwallace.com/css-code-quality?url=https%3A%2F%2Fwinterwald.ravenbright.design"
+							 class="inline-flex underline"><small>Low specificity CSS,</small></a>
+						<a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://gtmetrix.com/reports/winterwald.ravenbright.design/6DJtIaNh/"
+							 class="inline-flex underline"><small>GTMetrix Grade: A 100% performance,</small></a>
+						<a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fwinterwald.ravenbright.design%2F&form_factor=desktop"
+							 class="inline-flex underline"><small>PageSpeed Insights Grade: 100/100,</small></a>
+						<a target="_blank"
+							 rel="noopener noreferrer"
+							 href="https://wave.webaim.org/report#/https://winterwald.ravenbright.design"
+							 class="inline-flex underline"><small>No error found on WAVE WebAIM</small></a>
+					</small>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
