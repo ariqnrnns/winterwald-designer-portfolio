@@ -15,8 +15,15 @@
 </div>
 
 ---
-
+<p align="center">
 Free Product Designer Portfolio HTML template (with dark mode)
+
+<img src="https://raw.githubusercontent.com/ariqnrnns/zauberhaft-astro/main/src/Zauberhaft-banner.jpg" alt="Zauberhaft Banner">
+
+<img src="https://raw.githubusercontent.com/ariqnrnns/zauberhaft-astro/main/src/Zauberhaft-stats.jpg" alt="Zauberhaft Stats">
+</p>
+
+
 
 <div align="center">
 
