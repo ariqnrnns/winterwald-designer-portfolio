@@ -1,0 +1,49 @@
+{
+  "name": "winterwald-designer-portfolio",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariqnrnns/winterwald-designer-portfolio.git"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://winterwald.ravenbright.design",
+  "author": "Ariq N",
+  "description": "Build modern & unique product designer portfolio websites that convert. Supercharge your online presence & get more clients with responsive & high performance dark mode HTML template. Easily customize the template with utility classes & CSS custom properties",
+  "style": "ravenbright.min.css",
+  "scripts": {
+    "css-development": "postcss main.css --output ravenbright.min.css --watch",
+    "vite": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev": "concurrently 'npm:css-development' 'npm:vite' "
+  },
+  "bugs": {
+    "url": "https://github.com/ariqnrnns/winterwald-designer-portfolio/issues"
+  },
+  "keywords": [
+    "Free product designer template",
+    "Free template",
+    "Free portfolio template",
+    "Free HTML template",
+    "HTML template",
+    "Product designer template",
+    "Portfolio template",
+    "Static website",
+    "Website template"
+  ],
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^6.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+		"cross-env": "^7.0.3",
+		"vite": "^3.2.4"
+  }
+}
