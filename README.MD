@@ -1,82 +1,111 @@
-# Zauberhaft - Astro template
+<div align="center">
 
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ariqnrnns/zauberhaft-astro)
-[![Build CI](https://github.com/ariqnrnns/zauberhaft-astro/actions/workflows/build.yml/badge.svg)](https://github.com/ariqnrnns/zauberhaft-astro/actions/workflows/build.yml)
-![GitHub last commit](https://img.shields.io/github/last-commit/ariqnrnns/zauberhaft-astro)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![zauberhaft.ravenbright.design](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://zauberhaft.ravenbright.design)
+# Free Product Designer Portfolio HTML template (with dark mode)
 
+</div>
+
+<div align="center">
+
+[![Known Vulnerabilities](https://snyk.io/test/github/ariqnrnns/winterwald-designer-portfolio/badge.svg)](https://snyk.io/test/github/ariqnrnns/winterwald-designer-portfolio)
+[![Build CI](https://github.com/ariqnrnns/winterwald-designer-portfolio/actions/workflows/build.yml/badge.svg)](https://github.com/ariqnrnns/winterwald-designer-portfolio/actions/workflows/build.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/ariqnrnns/winterwald-designer-portfolio)
+![GitHub](https://img.shields.io/github/license/ariqnrnns/winterwald-designer-portfolio)
+[![Winterwald.ravenbright.design](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://winterwald.ravenbright.design)
+
+</div>
+
+---
 <p align="center">
+Free Product Designer Portfolio HTML template (with dark mode)
 <img src="https://raw.githubusercontent.com/ariqnrnns/winterwald-designer-portfolio/main/src/winterwald-banner.jpg" alt="Winterwald Banner">
 <img src="https://raw.githubusercontent.com/ariqnrnns/winterwald-designer-portfolio/main/src/pagespeed-stats.PNG" alt="Pagespeed Stats">
 <img src="https://raw.githubusercontent.com/ariqnrnns/winterwald-designer-portfolio/main/src/gtmetrix.PNG" alt="GTmetrix Stats">
 </p>
 
-## Free, customizable, modern & Lightning fast Astro agency website template
 
-Build modern & unique portfolio website that convert with	Zauberhaft.
+<div align="center">
 
-Easily customize the template with utility classes & CSS custom properties. Get started quickly & supercharge your online presence with Zauberhaft HTML template.
+## Download this template 👇
 
-## 👉 Demo
+</div>
 
-[View demo](https://zauberhaft.ravenbright.design)
+<div align="center">
 
-## ✅ Why Zauberhaft?
+<a href="https://github.com/ariqnrnns/winterwald-designer-portfolio">
+<img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="Github releases">
+</a>
+
+</div>
+
+## ✅ Explore the features
 
 - 👌 Totally free to use with Apache License 2.0
 - 😎 Stunning User Interface
 - 🎨 Everything is customizable. You can use [Ravenbright CSS](https://ravenbrightcss.com) utility classes or CSS variables to modify the styles
-- ⚡ High performing static sites. 98/100 scores both for mobile & desktop in Pagespeed Insights
+- ⚡ High performing static sites. 99/100 scores both in Pagespeed Insights & GT Metrix
 - ♿ Accessible - comply with WCAG 2.1. Measured by Pagespeed Insights, WAVE & Tota11y
 - 📰 Included with Open Graph tags
 - 📱 Fully Responsive & mobile-friendly landing page
 - 👌 Comes with & smooth animations
 
-## 🚀 Getting started
+## 🚀 How to get started?
 
-1. Download the source code from Github Releases
-2. `cd` into the folder & run `npm install`
-3. After that, run `npm run dev` to start the local development server
-4. Customize the website
-5. Deploy into your favorite hosting
-6. It's done!
+- Download the source code
+
+- Then run these command below
+
+```bash
+# change directory
+cd winterwald-designer-portfolio
+
+# initialize project
+npm init
+
+# install dependencies
+npm install
+
+# start the local development server
+npm run dev
+```
 
 ## 🎨 Customization
 
-Zauberhaft is built with Ravenbright CSS library. You can customize the template with using either:
+Winterwald is built with Ravenbright CSS library. You can customize the template with using either:
 
 - [Utility classes](https://ravenbrightcss.com/docs/utilities/background)
 - [CSS variables](https://ravenbrightcss.com/docs/customize/cssvariables)
 
-## ⚙️ Development
-
-1. Type `npm run dev` on CLI
-2. Open `localhost:3000` to view the website
-
 ## ✅ Build process
 
 1. Type `npm run build` on CLI
-2. Run `npm run preview` to see the build result. Finally, it's done 🎉. Your website is ready to deploy 🚀
+2. Run `npm run preview`
+3. Open `localhost:4173` to see the build result & it's done 🎉. Your website is ready to deploy 🚀
 
-## ☁️ Deploy
+---
 
-### Deploy to Netlify
+<div align="center">
 
-Clone this repository and deploy to Netlify:
+Still have doubt? Don't be, explore & play around with Ravenbright Design Tokens live demo on TailwindPlay.
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ariqnrnns/zauberhaft-astro)
+## View demo 👇
 
+<a href="https://winterwald.ravenbright.design">
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Explore UI collections">
+</a>
+
+</div>
+
+---
 
 ## 🤝 Credits & attributions
 
+- CSS library: [Ravenbright CSS](https://ravenbrightcss.com)
 - Post-processor tool: [PostCSS](https://postcss.org)
-- Web framework tool: [Astro](https://astro.build)
+- Design Tokens: [Ravenbright Tokens](https://ravenbrightcss.com/tokens)
 - Photos are courtesy of [Unsplash](https://unsplash.com)
-- Typeface: `Satoshi` by [Indian Type Foundry](https://www.fontshare.com/fonts/satoshi)
-- Placeholder Logo are courtesy of [Logoipsum](https://logoipsum.com)
-- Icons are courtesy of [Tabler](https://tabler-icons.io/) and [Akar Icons](akaricons.com/)
+- Typeface: `Inter Tight` by [Rasmus Andersson](https://github.com/rsms/inter-gf-tight/blob/main/OFL.txt)
+- Icons are courtesy of [Tabler](https://tabler-icons.io/) & [Akar Icons](https://akaricons.com/)
 
 ## 📝 License
 
-Zauberhaft HTML template is licensed under the [Apache License 2.0](https://github.com/ariqnrnns/zauberhaft-astro/blob/main/LICENSE.md)
+Source code released under [Apache License 2.0](https://github.com/ariqnrnns/winterwald-designer-portfolio/blob/main/LICENSE.md).
